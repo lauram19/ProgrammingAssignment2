@@ -1,4 +1,4 @@
-## The functions listed below are used to create an onbject that stores a matrix
+## The functions listed below are used to create an object that stores a matrix
 ## and caches its inverse.
 
 ## The first function, makeCacheMatrix, creates a matrix, which is really a list which:
@@ -21,7 +21,7 @@ makeCacheMatrix <-function(x = matrix()) {
 
 
 
-## The second funtion below computes the inverse of the matrix returned by the function makeCacheMatrix.
+## The second function below computes the inverse of the matrix returned by the function makeCacheMatrix.
 
 cacheSolve <- function(x, ...) {
     inv<-x$getInverse()
